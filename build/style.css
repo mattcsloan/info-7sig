@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	color: #4d4d4f;
+}
+
+img {
+	max-width: 100% !important;
+}
+
+p {
+	margin: 0 0 24px 0;
+	line-height: 1.6em;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.content ul
+{
+  margin: 36px 0;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.content ul ul,
+.content ol ol {
+	margin: 12px 0;
+	columns: 1;
+}
+
+.content ul li
+{
+  padding: 0 0 0 20px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.content ul li:before
+{
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: #cc0000;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px 16px 0 0;
+}
+
+.content ol
+{
+  margin: 42px 0;
+  padding: 0;
+  clear: both;
+}
+
+.content ol li
+{
+  margin-bottom: 12px;
+  margin-left: 16px;
+}
+
+.section .wrapper {
+	padding: 42px 20px;
+}
+
+.header .wrapper {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.header .wrapper:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header .logo {
+	float: left;
+	padding: 12px 0;
+	width: 257px;
+	transition: all 0.4s ease-in-out;
+	border-bottom: 4px solid transparent;
+}
+
+.header .logo:hover {
+	opacity: 0.6;
+	border-bottom-color: #bb5536;
+}

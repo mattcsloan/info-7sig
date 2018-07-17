@@ -1,0 +1,28 @@
+/* Mobile Screens */
+@media all and (max-width: 767px) {
+	p {
+		margin: 0 0 16px 0;
+	}
+
+	.content ul,
+	.content ol
+	{
+	  margin: 20px 0;
+	  columns: 1;
+	}
+
+	.content ul ul,
+	.content ol ol {
+		margin: 8px 0;
+	}
+
+	.content ul li,
+	.content ol li
+	{
+	  margin-bottom: 8px;
+	}
+
+	.section .wrapper {
+		padding: 24px 20px;
+	}
+}
