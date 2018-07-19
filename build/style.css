@@ -82,6 +82,10 @@ strong {
 	padding-bottom: 0;
 }
 
+.header {
+	background: #f0f0f0;
+}
+
 .header .wrapper:after {
 	content: '';
 	display: block;
@@ -90,7 +94,7 @@ strong {
 
 .header .logo {
 	float: left;
-	padding: 12px 0;
+	padding: 25px 0;
 	width: 257px;
 	transition: all 0.4s ease-in-out;
 	border-bottom: 4px solid transparent;
@@ -99,4 +103,33 @@ strong {
 .header .logo:hover {
 	opacity: 0.6;
 	border-bottom-color: #bb5536;
+}
+
+div.main.wrapper h2 {
+	color: #b30000;
+}
+
+div.wrapper h2.trouble {
+	float: right;
+	padding: 20px 0px;
+	color: #a9a9a9;
+	text-transform: uppercase;
+}
+div.article.full.section.content{
+	display: flex;
+}
+
+div.side-bar{
+	align-items: flex-end;
+	width: 40%;
+}
+
+div.table table{
+border: 1px black;	
+}
+
+div.footer {
+	background: #4d4d4f;
+	color: #ffffff;
+	padding: 20px;
 }
