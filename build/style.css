@@ -31,7 +31,7 @@ strong {
 
 
 .banner {
-    background: #555;
+    background: #696969;
     text-align: right;
     font-size: 13px;
 }
@@ -43,7 +43,7 @@ strong {
 
 .banner a {
     padding: 8px 16px;
-    color: #fff;
+    color: #d3d3d3;
     text-decoration: none;
     display: inline-block;
 }
@@ -112,7 +112,7 @@ h2.trouble {
     margin-right: 50px;
 }
 
-div.main h1 {
+.main h1 {
 	color: #b30000;
 }
 
@@ -177,17 +177,25 @@ div.main h1 {
 
 
 .footer {
-	background: #4d4d4f;
+	background: #696969;
 	color: #a9a9a9;
 	padding: 20px;
+}
 
+.footer .wrapper .columns{
+	display: flex;
+	flex-direction: row;
+}
+
+.social {
+	margin-left: auto;
 }
 
 
-.icon{
-	display: inline-block;
+.footer .social a {
 	float: right;
-	color: #fff;
-	padding: 5px;
-
+	text-decoration: none;
+	color: #d3d3d3;
+	padding-left: 10px;
+	font-size: 20px;
 }
