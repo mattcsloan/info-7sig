@@ -32,7 +32,7 @@
 <body <?php body_class(); ?>>
     <div class="banner">
       <div class="wrapper">
-            <a href="#">7signal.com</a>
+            <a href="http://7signal.com" target="_blank">7signal.com</a>
       </div>
     </div>
 	<div class="header">

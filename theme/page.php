@@ -6,8 +6,8 @@
     </div>
 	<div class="side-bar">
         <div class="mod">
-            <h2>More Articles</h2>
-            <?php wp_list_pages(array(title_li => '')); ?>
+            <h2>Articles</h2>
+	        <?php wp_list_pages(array(title_li => '', exclude => '8')); ?>
         </div>
 	</div>
 </div>

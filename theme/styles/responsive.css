@@ -1,175 +1,114 @@
-@media all and (max-width: 1190px) {
-	h1 {
-		font-size: 28px;
+@media all and (max-width: 1100px) {
+	.main {
+	    flex: 2 0 0;
 	}
 
-	h2 {
-		font-size: 24px;
-	}
-}
-
-@media all and (max-width: 940px) {
-	input[type=text] {
-		font-size: 18px;
-	}
-
-	.header .logo {
-		width: 162px;
-	}
-
-	.article.intro a img {
-		width: 100%;
-	}
 }
 
 /* Mobile Screens */
 @media all and (max-width: 767px) {
-
-	body.scrolled {
-		margin-top: 66px; /* height of header. prevents page from jumping when header switches to fixed position once scrolled */
-	}
-
 	h1 {
-		font-size: 24px;
-	}
-
-	h2 {
 		font-size: 21px;
-	}
-
-	h3 {
-		font-size: 16px;
-	}
-
-	input[type=text] {
-		font-size: 16px;
+		margin: 0 0 16px 0;
 	}
 
 	p {
 		margin: 0 0 16px 0;
 	}
 
-	a.btn,
-	input.btn,
-	button {
+	.wrapper {
+		padding: 16px;
+	}
+
+	/**** BANNER ***/
+
+	.banner .wrapper {
+	    padding-right: 0;
+	}
+
+	/***** END BANNER ****/
+
+	/**** HEADER ****/
+
+	.header .logo {
+		padding: 16px 0 12px;
+		width: 160px;
+	}
+
+	h2.trouble {
+		margin: 0;
+		padding: 0;
+		line-height: 72px;
 		font-size: 18px;
 	}
 
-	.content ul,
-	.content ol
-	{
-	  margin: 20px 0;
-	  columns: 1;
-	}
 
-	.content ul ul,
-	.content ol ol {
-		margin: 8px 0;
-	}
+	/****** END HEADER *****/
 
-	.content ul li,
-	.content ol li
-	{
-	  margin-bottom: 8px;
-	}
+	/**** MAIN CONTENT ****/
+
 
 	.section .wrapper {
-		padding: 24px 20px;
+		padding: 24px 16px;
 	}
 
-	/* ********************************************** */
-	/* ****************** COLUMNS ******************* */
-	/* ********************************************** */
-
-	.columns,
-	.columns.two-wide,
-	.columns.three-wide,
-	.columns.five-wide
-	{
-	  display: block;
+	.article {
+		display: block;
 	}
 
-	.columns .col:last-child {
-		margin-bottom: 0;
+	.main {
+	    margin: 0 0 16px 0;
 	}
 
-	/* ********************************************** */
-	/* ******************* HEADER ******************* */
-	/* ********************************************** */
-
-	.header {
-		position: relative;
-	}
-
-	.scrolled .header {
-		position: fixed;
-	}
-
-	.header .wrapper {
+	.side-bar {
 		padding: 0;
-	}
-
-	.header .logo,
-	.scrolled .header .logo {
-		padding: 10px 20px;
-		width: 116px;
-	}
-
-	/* ********************************************** */
-	/* ************* Blog Listings Pages ************ */
-	/* ********************************************** */
-
-	.article.intro {
-		max-width: 400px;
-		margin: 4px auto;
-		float: none;
-		width: 100%;
-	}
-
-	.article.intro .article-content h2 {
-		font-size: 18px;
 		margin: 0;
 	}
 
-	/* ********************************************** */
-	/* ************* Blog Article Pages ************* */
-	/* ********************************************** */
+	/****** Footer ******/
 
-	.article .wrapper {
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-}
-
-@media all and (max-width: 500px) {
-	.pagination {
-		font-size: 16px;
+	.footer {
+		text-align: center;
+		padding: 0;
+		font-size: 12px;
 	}
 
-	.pagination .wrapper > span {
+	.footer .wrapper .columns{
 		display: block;
-		margin-bottom: 8px;
-		line-height: 1.1em;
 	}
 
-	.pagination .btn,
-	.pagination .btn:last-child {
-		margin: 6px;
-		padding: 12px 24px;
+	.footer .social {
+		margin-top: 12px;
+		border-top: 1px solid #888;
+		padding-top: 12px;
+	}
+
+	.footer .social a {
 		float: none;
+		display: inline-block;
 	}
 }
 
 @media all and (max-width: 400px) {
-	.article + .pagination .btn,
-	.article + .pagination .btn:last-child {
-		font-size: 13px;
-		margin: 0;
-		padding: 12px 18px;
-		float: left;
+
+	.header {
+		text-align: center;
 	}
 
-	.article + .pagination .btn:last-child {
-		float: right;
+	.header .logo,
+	h2.trouble {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.header .logo {
+		padding: 10px 0 6px;
+	}
+
+	h2.trouble {
+		line-height: 36px;
+		border-top: 1px solid #ddd;
+		font-size: 16px;
 	}
 }
