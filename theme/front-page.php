@@ -4,8 +4,7 @@
 	<div class="full">
 	    <?php the_content(); ?>
 	    <div class="mod">
-	        <h2>Articles</h2>
-	        <?php wp_list_pages(array(title_li => '', exclude => '8')); ?>
+	        <?php wp_list_pages(array(title_li => '', exclude => '8', depth => 2)); ?>
 	    </div>
     </div>
 </div>

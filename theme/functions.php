@@ -18,7 +18,7 @@
 	function load_my_scripts() {
 		wp_enqueue_script('jquery');
 		$templatedir = get_bloginfo('template_directory');
-		wp_register_script('myscript', $templatedir.'/scripts/interaction.js', array('jquery'), '1.0.0', true);
+		wp_register_script('myscript', $templatedir.'/scripts/interaction.js', array('jquery'), '1.0.5', true);
 		wp_enqueue_script('myscript');
 	}
 	add_action('init', 'load_my_scripts');
